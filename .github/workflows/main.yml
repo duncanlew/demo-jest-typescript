@@ -1,4 +1,4 @@
-name: Demo GitHub Actions
+name: Demo GitHub   Actions
 on:
   push:
     branches: [ main ]
@@ -21,4 +21,4 @@ jobs:
       run: npm ci
 
     - name: Test
-      run: npm test
+      run: npm test 
